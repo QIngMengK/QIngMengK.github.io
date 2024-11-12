@@ -101,6 +101,4 @@ theme: yun
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: git@github.com:QIngMengK/QIngMengK.github.io.git
-  branch: gh-pages
+  type: ''
