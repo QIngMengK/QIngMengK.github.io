@@ -90,7 +90,7 @@ footer:
     enable: true
     prefix: 感谢陪伴
     suffix: (●'◡'●)
-    start_time: '2024-11-12T00:00:00' # 开始时间
+    start_time: '2024-11-12T18:00:00' # 开始时间
  
   support: # 支持，例如又拍云联盟之类的
     enable: true
