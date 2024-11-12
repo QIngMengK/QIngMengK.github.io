@@ -21,6 +21,7 @@ avatar:
     enable: true
     emoji: ☺️
     message: 四季花开
+medium_zoom: true
 social:
   - name: RSS
     # set rss in your root config
