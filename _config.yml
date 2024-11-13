@@ -124,3 +124,5 @@ menu:
   #   title: 文档
   #   path: https://yun.yunyoujun.cn
   #   icon: ri:settings-line 
+local_search:
+  enable: true
