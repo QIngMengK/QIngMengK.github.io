@@ -1,5 +1,6 @@
 ---
 abbrlink: ''
+aplayer: false
 categories: []
 date: '2024-11-12T16:59:17.379352+08:00'
 tags: []
