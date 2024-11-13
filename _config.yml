@@ -126,3 +126,5 @@ menu:
   #   icon: ri:settings-line 
 local_search:
   enable: true
+pjax:
+  enable: true
