@@ -6,7 +6,7 @@ date: '2024-11-13T19:12:22.945245+08:00'
 tags:
 - Markdown
 title: Markdown学习笔记
-updated: '2024-11-13T19:14:05.907+08:00'
+updated: '2024-11-13T20:17:32.492+08:00'
 ---
 # Markdown 基本语法
 
@@ -53,8 +53,6 @@ Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地
 | -------------------- | ------------------- |
 | `# Here's a Heading` | `#Here's a Heading` |
 
-
-
 # Markdown 段落
 
 要创建段落，请使用空白行将一行或多行文本进行分隔。
@@ -72,8 +70,6 @@ Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地
 | ✅  Do this                                                                               | ❌  Don't do this                                                                                                |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | `Don't put tabs or spaces in front of your paragraphs.Keep lines left-aligned like this.` | `    This can result in unexpected formatting problems.  Don't add tabs or spaces in front of paragraphs.` |
-
-
 
 # Markdown 换行语法
 
@@ -97,8 +93,6 @@ Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地
 | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | `First line with two spaces after.  And the next line.First line with the HTML tag after.<br>And the next line.` | `First line with a backslash after.\And the next line.First line with nothing after.And the next line.` |
 
-
-
 # Markdown 强调语法
 
 通过将文本设置为粗体或斜体来强调其重要性。
@@ -108,11 +102,11 @@ Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地
 要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。
 
 
-| Markdown语法                 | HTML                                      | 预览效果                   |
-| ---------------------------- | ----------------------------------------- | -------------------------- |
-| `I just love **bold text**.` | `I just love <strong>bold text</strong>.` | I just love **bold text**. |
-| `I just love __bold text__.` | `I just love <strong>bold text</strong>.` | I just love **bold text**. |
-| `Love**is**bold`             | `Love<strong>is</strong>bold`             | Love**is**bold             |
+| Markdown语法                 | HTML                                      | 预览效果                  |
+| ---------------------------- | ----------------------------------------- | ------------------------- |
+| `I just love **bold text**.` | `I just love <strong>bold text</strong>.` | I just love**bold text**. |
+| `I just love __bold text__.` | `I just love <strong>bold text</strong>.` | I just love**bold text**. |
+| `Love**is**bold`             | `Love<strong>is</strong>bold`             | Love**is**bold            |
 
 ### [#](https://markdown.com.cn/basic-syntax/emphasis.html#%E7%B2%97%E4%BD%93-bold-%E7%94%A8%E6%B3%95%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)粗体（Bold）用法最佳实践
 
@@ -128,11 +122,11 @@ Markdown 应用程序在如何处理单词或短语中间的下划线上并不�
 要用斜体显示文本，请在单词或短语前后添加一个星号（asterisk）或下划线（underscore）。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。
 
 
-| Markdown语法                           | HTML                                          | 预览效果                              |
-| -------------------------------------- | --------------------------------------------- | ------------------------------------- |
-| `Italicized text is the *cat's meow*.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the *cat’s meow*. |
-| `Italicized text is the _cat's meow_.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the *cat’s meow*. |
-| `A*cat*meow`                           | `A<em>cat</em>meow`                           | A*cat*meow                            |
+| Markdown语法                           | HTML                                          | 预览效果                             |
+| -------------------------------------- | --------------------------------------------- | ------------------------------------ |
+| `Italicized text is the *cat's meow*.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the*cat’s meow*. |
+| `Italicized text is the _cat's meow_.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the*cat’s meow*. |
+| `A*cat*meow`                           | `A<em>cat</em>meow`                           | A*cat*meow                           |
 
 ### [#](https://markdown.com.cn/basic-syntax/emphasis.html#%E6%96%9C%E4%BD%93-italic-%E7%94%A8%E6%B3%95%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)斜体（Italic）用法的最佳实践
 
@@ -150,10 +144,10 @@ Markdown 应用程序在如何处理单词或短语中间的下划线上并不�
 
 | Markdown语法                              | HTML                                                          | 预览效果                                |
 | ----------------------------------------- | ------------------------------------------------------------- | --------------------------------------- |
-| `This text is ***really important***.`    | `This text is <strong><em>really important</em></strong>.`    | This text is ***really important***.    |
-| `This text is ___really important___.`    | `This text is <strong><em>really important</em></strong>.`    | This text is ***really important***.    |
-| `This text is __*really important*__.`    | `This text is <strong><em>really important</em></strong>.`    | This text is ***really important***.    |
-| `This text is **_really important_**.`    | `This text is <strong><em>really important</em></strong>.`    | This text is ***really important***.    |
+| `This text is ***really important***.`    | `This text is <strong><em>really important</em></strong>.`    | This text is***really important***.     |
+| `This text is ___really important___.`    | `This text is <strong><em>really important</em></strong>.`    | This text is***really important***.     |
+| `This text is __*really important*__.`    | `This text is <strong><em>really important</em></strong>.`    | This text is***really important***.     |
+| `This text is **_really important_**.`    | `This text is <strong><em>really important</em></strong>.`    | This text is***really important***.     |
 | `This is really***very***important text.` | `This is really<strong><em>very</em></strong>important text.` | This is really***very***important text. |
 
 ### [#](https://markdown.com.cn/basic-syntax/emphasis.html#%E7%B2%97%E4%BD%93-bold-%E5%92%8C%E6%96%9C%E4%BD%93-italic-%E7%94%A8%E6%B3%95%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)粗体（Bold）和斜体（Italic）用法的最佳实践
@@ -164,7 +158,6 @@ Markdown 应用程序在处理单词或短语中间添加的下划线上并不�
 | ✅  Do this                               | ❌  Don't do this                         |
 | ----------------------------------------- | ----------------------------------------- |
 | `This is really***very***important text.` | `This is really___very___important text.` |
-
 
 # Markdown 引用语法
 
@@ -232,9 +225,6 @@ Markdown 应用程序在处理单词或短语中间添加的下划线上并不�
 > * Profits were higher than ever.
 >
 > *Everything* is going according to **plan**.
->
-
-
 
 # Markdown 列表语法
 
@@ -391,7 +381,6 @@ You can nest an unordered list in an ordered list, or vice versa.
    * Indented item
 4. Fourth item
 
-
 # Markdown 代码语法
 
 要将单词或短语表示为代码，请将其包裹在反引号 (```) 中。
@@ -432,7 +421,6 @@ You can nest an unordered list in an ordered list, or vice versa.
 
 **Note:** 要创建不用缩进的代码块，请使用 [围栏式代码块（fenced code blocks）](https://markdown.com.cn/extended-syntax/fenced-code-blocks.html).
 
-
 # Markdown 分隔线语法
 
 要创建分隔线，请在单独一行上使用三个或多个星号 (`***`)、破折号 (`---`) 或下划线 (`___`) ，并且不能包含其他内容。
@@ -457,8 +445,6 @@ _________________
 | ✅  Do this                                                           | ❌  Don't do this                                                |
 | --------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `Try to put a blank line before...---...and after a horizontal rule.` | `Without blank lines, this would be a heading.---Don't do this!` |
-
-
 
 # Markdown 链接语法
 
@@ -562,8 +548,6 @@ See the section on [`code`](https://markdown.com.cn/basic-syntax/links.html#code
 | --------------------------------------------------- | ----------------------------------------------- |
 | `[link](https://www.example.com/my%20great%20page)` | `[link](https://www.example.com/my great page)` |
 
-
-
 # Markdown 图片语法
 
 要添加图像，请使用感叹号 (`!`), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。
@@ -591,7 +575,6 @@ See the section on [`code`](https://markdown.com.cn/basic-syntax/links.html#code
 渲染效果如下：
 
 [![沙漠中的岩石图片](https://markdown.com.cn/assets/img/shiprock.c3b9a023.jpg "Shiprock")](https://markdown.com.cn/)
-
 
 # Markdown 转义字符语法
 
@@ -675,7 +658,6 @@ Markdown 将会把它转换为：
 ```
 
 需要特别注意的是，在 Markdown 的块级元素和内联元素中， `<` 和 `&` 两个符号都会被自动转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML。（在 HTML 语法中，你要手动把所有的 `<` 和 `&` 都转换为 HTML 实体。）
-
 
 # Markdown 内嵌 HTML 标签
 
