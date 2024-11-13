@@ -128,3 +128,7 @@ aplayer:
       id: 308168565
       server: netease
       type: playlist
+wordcount:
+  enable: true
+  count: true
+  time: true
