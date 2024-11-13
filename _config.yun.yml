@@ -23,20 +23,20 @@ avatar:
     message: 四季花开
 medium_zoom: true
 social:
-  - name: RSS
+  #- name: RSS
     # set rss in your root config
     # https://github.com/hexojs/hexo-generator-feed
-    link: /atom.xml # config.feed.path
-    icon: ri:rss-line
-    color: orange
+    #    link: /atom.xml # config.feed.path
+    #    icon: ri:rss-line
+    #    color: orange
   - name: GitHub
     link: https://github.com/QIngMengK
     icon: ri:github-line
     color: '#181717'
-  - name: E-Mail
-    link: 85256952@qq.com
-    icon: ri:mail-line
-    color: '#8E71C1'
+  #  - name: E-Mail
+  #   link: 85256952@qq.com
+  #   icon: ri:mail-line
+  #   color: '#8E71C1'
   # - name: 微博
   #   link: #
   #   icon: ri:weibo-line
