@@ -104,7 +104,7 @@ footer:
   custom_text: 平安快乐 年年岁岁年年 <a href="yourLink" rel="noopener" target="_blank">Description</a>
 aplayer:
   asset_inject: false      
-  global: true
+  global: false
   meting: true
   # https://github.com/metowolf/MetingJS/tree/v1.2#option
   widget:
