@@ -138,6 +138,10 @@ wordcloud:
   enable: true
 engine_search:
   enable: false
+# search
+# https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
 search:
   modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
