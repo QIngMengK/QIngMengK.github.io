@@ -136,7 +136,8 @@ wordcount:
   time: true
 wordcloud:
   enable: true
-
+engine_search:
+  enable: false
 search:
   modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
