@@ -68,7 +68,33 @@ social:
   #   icon: ri:wechat-2-line
   #   color: '#1AAD19'
 # _config.yun.yml
-
+aplayer:
+  asset_inject: false
+  global: true
+  meting: true
+  # https://github.com/metowolf/MetingJS/tree/v1.2#option
+  widget:
+    enable: true
+    autoplay: true
+    # theme: "#2980b9"
+    loop: all
+    order: list
+    preload: auto
+    volume: 0.7
+    mutex: true
+    lrcType: 0
+    listFolded: false
+    listMaxHeight: 340px
+    audio:
+      - name: 星宿计时
+        artist: 杉田朗/洛天依
+        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
+        cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
+    meting:
+      enable: true
+      id: 308168565
+      server: netease
+      type: playlist
 bg_image:
   enable: true
   url: /images/background.jpg
@@ -112,34 +138,7 @@ footer:
  
 #下面是自定义文本，你可以自由填写
   custom_text: 平安快乐 年年岁岁年年 <a href="yourLink" rel="noopener" target="_blank">Description</a>
-aplayer:
-  asset_inject: false      
-  global: true
-  meting: true
-  # https://github.com/metowolf/MetingJS/tree/v1.2#option
-  widget:
-    enable: true
-    autoplay: true
-    # theme: "#2980b9"
-    loop: all
-    order: list
-    preload: auto
-    volume: 0.7
-    mutex: true
-    lrcType: 0
-    listFolded: false
-    listMaxHeight: 340px
-    audio:
-      - name: 星宿计时
-        artist: 杉田朗/洛天依
-        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
-        cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
-    meting:
-      enable: true
-      id: 308168565
-      server: netease
-      type: playlist
-      
+ 
 wordcount:
   enable: true
   count: true
