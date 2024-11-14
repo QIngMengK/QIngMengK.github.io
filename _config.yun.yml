@@ -8,6 +8,16 @@ banner:
   go_down:
     enable: true
     icon: ri:arrow-down-s-line
+engine_search:
+  enable: false
+# search
+# https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
+search:
+  modal: true
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+  dark_bg_image: xxx
 notice:
   enable: true
   content: 欢迎光临我的世界
@@ -136,17 +146,6 @@ wordcount:
   time: true
 wordcloud:
   enable: true
-engine_search:
-  enable: false
-# search
-# https://github.com/next-theme/hexo-generator-searchdb
-local_search:
-  enable: true
-search:
-  modal: true
-  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
-  dark_bg_image: xxx
-  # placeholder:
 trianglify:
   enable: false
   cellSize: 75
