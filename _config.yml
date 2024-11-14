@@ -4,8 +4,8 @@
 
 # Site
 title: 清梦的博客小站
-subtitle: '一个人的世界'
-description: '踏着梦走过时光'
+subtitle: '你的人生答卷'
+description: '乱写也是满分'
 keywords: 生活
 author: 清梦K
 language: zh-CN
@@ -14,8 +14,18 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://qingmengk.github.io/
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+#permalink: :year/:month/:day/:title/
+#permalink_defaults:
+permalink: posts/:abbrlink/
+abbrlink:
+  alg: crc32 # support crc16(default) and crc32
+  rep: hex # support dec(default) and hex
+  drafts: false # (true)Process draft,(false)Do not process draft
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: false # 默认为 true， 手改改为 false
+    depth:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
