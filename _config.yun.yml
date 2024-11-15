@@ -21,6 +21,17 @@ search:
 notice:
   enable: true
   content: 欢迎光临我的世界
+
+# 文章开头设置
+post_card:
+  opacity: 0.8  
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+# 作者简介
 avatar:
   enable: true
   url: /images/abvatar.jpg
