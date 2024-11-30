@@ -24,7 +24,7 @@ notice:
 
 # 文章开头设置
 post_card:
-  opacity: 0.8  
+  opacity: 0.5 
 post_meta:
   item_text: false
   created_at: true
