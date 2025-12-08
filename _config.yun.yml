@@ -20,7 +20,7 @@ search:
   dark_bg_image: xxx
 notice:
   enable: true
-  content: 婵娟轻叩窗，明轩韵来响
+  content: 
 
 # 文章开头设置
 post_card:
